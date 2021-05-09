@@ -32,6 +32,10 @@ const checkParams = (shift, action, input, output) => {
     exitWithMessage('Error: action should be "encode" or "decode"');
   }
 
+  if (input === output) {
+    exitWithMessage('Error: Please select different input and output files');
+  }
+
   checkFiles(input);
   checkFiles(output);
 }
