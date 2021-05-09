@@ -18,7 +18,8 @@ pipeline(
   writeStream,
   (err) => {
     if (err) {
-      process.stderr.write(console.log(err))
+      process.stderr.write('Stream pipeline failed');
+      process.exit(1);
     }
   }
 );
