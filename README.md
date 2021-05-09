@@ -1,7 +1,7 @@
 #  Caesar Cipher
 
-This application encrypts passed string by Caesar Cipher.
-Only latin symbols will be encoded or decoded. Register is saved.
+This application encrypts passed string by Caesar Cipher.<br>
+Only latin symbols will be encoded or decoded.
 
 ## Installation
 
@@ -12,7 +12,7 @@ Only latin symbols will be encoded or decoded. Register is saved.
 
 ## Usage
 
-Run command
+Run command<br>
 `node my_caesar_cli.js options`
 
 Options list:
@@ -21,8 +21,8 @@ Options list:
 * `-i, --input` - **optional**. The file path from which text should be taken. If not specified - print the text to the console.
 * `-o, --output` - **optional**. The file path where encoded\decoded text should be written. If not specified - will be printed to the console.
 
-Example:
-`node my_caesar_cli.js -s 3 -a encode -i input.txt -o output.txt
+Example:<br>
+`node my_caesar_cli.js -s 3 -a encode -i input.txt -o output.txt`
 
 ## Files structure
 
